@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+      
+        <title>35ª Semana de Computação e Informática da FIPP/Unoeste (INFOESTE 2023)</title>
+        <meta content="" name="description">
+        <meta content="" name="keywords">
+      
+        <!-- Favicons -->
+        <link href="assets/img/Logo-Infoeste.png" rel="icon">
+        <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+      
+        <!-- Google Fonts -->
+        <link
+          href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+          rel="stylesheet">
+      
+        <!-- Vendor CSS Files -->
+        <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+        <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+        <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+        <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+        <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+        <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+        <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+      
+        <!-- Template Main CSS File -->
+        <link href="assets/css/style.css" rel="stylesheet">
+      
+        <!-- =======================================================
+        * Template Name: Anyar
+        * Updated: Aug 30 2023 with Bootstrap v5.3.1
+        * Template URL: https://bootstrapmade.com/anyar-free-multipurpose-one-page-bootstrap-theme/
+        * Author: BootstrapMade.com
+        * License: https://bootstrapmade.com/license/
+        ======================================================== -->
+      </head>
+<body id="verifica">
+
+    <header id="header" class="d-flex align-items-center ">
+        <div class="container d-flex align-items-center justify-content-between">
+    
+          <h1 class="logo"><a href="index.html"><img class="img-fluid" src="assets/img/Logo-Infoeste.png" alt="Logotipo Infoeste" style="max-width: 35%;" href="index.html">                                                          </a><strong><a href="index.html">INFOESTE</a></strong></h1>
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <a href=index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+    
+          <nav id="navbar" class="navbar">
+            <ul>
+              <li><a class="nav-link scrollto" href="index.html" target="_self">Home</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+          </nav><!-- .navbar -->
+    
+        </div>
+      </header>
+      <section class="contact">
+        <div class="container">
+          <div class="section-title" style="text-align: center;">
+              <h2>Cadastro De Cursos</h2>
+          </div>
+          <br>
+          <hr>
+          <br>
+
+          <form method="post" role="form" class="php-email-form">
+              <div class="row">
+                  <div class="col-md-4 mb-3">
+                      <label for="courseName" class="form-label">Nome do Curso</label>
+                      <input type="text" name="courseName" class="form-control" id="courseName" placeholder="Nome do Curso">
+                  </div>
+                  <div class="col-md-4 mb-3">
+                      <label for="professorName" class="form-label">Nome do Professor</label>
+                      <input type="text" name="professorName" class="form-control" id="professorName" placeholder="Nome do Professor">
+                  </div>
+                  <div class="col-md-4 mb-3">
+                      <label for="classDate" class="form-label">Data</label>
+                      <input type="date" name="classDate" class="form-control" id="classDate">
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-4 mb-3">
+                      <label for="classTime" class="form-label">Horário</label>
+                      <input type="time" name="classTime" class="form-control" id="classTime">
+                  </div>
+                  <div class="col-md-4 mb-3">
+                      <label for="email" class="form-label">Email</label>
+                      <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                  </div>
+              </div>
+              
+              <div class="text-center"><br>
+                  <button type="button" onclick="adicionarItem()">Cadastrar</button>
+              </div>
+
+              <table class="col-md-12" id="grid">
+              <thead>
+                <tr>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody id="tb-body">
+                
+              </tbody>
+            </table>
+              
+          </form>
+
+          
+        </div>
+      </section>
+    
+      <footer id="footer">    
+        <div class="footer-top">
+          <div class="container">
+            <div class="row">
+    
+              <div class="col-lg-3 col-md-6 footer-links">
+                <h4>CURSOS</h4>
+                <ul>
+                  <li><i class="bx bx-chevron-right"></i> <a href="https://www.unoeste.br/graduacao">Graduação</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="https://www.unoeste.br/pos">Pós-Graduação</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="https://www.unoeste.br/ead">Educação a Distância</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="https://www.unoeste.br/cursoslivres">Cursos Livres</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="https://www.unoeste.br/tecnicos">Cursos Técnicos</a></li>
+                </ul>
+              </div>
+    
+              <div class="col-lg-3 col-md-6 footer-links">
+                <h4>A UNOESTE</h4>
+                <ul>
+                  <li><i class="bx bx-chevron-right"></i> <a href="https://www.unoeste.br/AUnoeste">Mantenedora</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="https://www.unoeste.br/50anos">50 Anos</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="https://www.unoeste.br/avaliacao-institucional-cpa">Avaliação Institucional (CPA)</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="https://www.unoeste.br/AUnoeste/premios">Prêmios</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="https://www.unoeste.br/AUnoeste/Unidades">Campi Universitários</a></li>
+                </ul>
+              </div>
+    
+              <div class="col-lg-3 col-md-6 footer-contact">
+                <h4>CONTATO</h4>
+                <p>
+                  Secretaria da Faculdade de Informática - Bloco H - 1º andar <br>
+                  R. José Bongiovani, 700 - Cidade Universitária <br>
+                  Presidente Prudente<br><br>
+                  <strong>Telefone:</strong> (18) 3229 - 1060<br>
+                  <strong>Email:</strong> infoeste@fipp.unoeste.br<br>
+                </p>
+    
+              </div>
+    
+              <div class="col-lg-3 col-md-6 footer-info">
+                <h3 style="text-align: center;">REDES SOCIAIS</h3>
+                <div class="social-links mt-3" style="text-align: center;">
+                  <a href="https://www.youtube.com/user/unoestepp" class="youtube"><i class="bx bxl-youtube" target="_blank"></i></a>
+                  <a href="https://www.facebook.com/Unoeste" class="facebook" target="_blank"><i class="bx bxl-facebook"></i></a>
+                  <a href="https://www.instagram.com/unoeste/" class="instagram"><i class="bx bxl-instagram" target="_blank"></i></a>
+                  <a href="https://www.linkedin.com/school/universidade-do-oeste-paulista/" class="linkedin"><i class="bx bxl-linkedin" target="_blank"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer><!-- End Footer -->
+</body>
+<script src="assets/js/form.js"></script>
+<script src="assets/js/cadastro.js"></script>
+
+</html>
+

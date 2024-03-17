@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>35ª Semana de Computação e Informática da FIPP/Unoeste (INFOESTE 2023)</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <script src = "MascarasValidaCPF.js"></script>
+  <script src = "API.js"></script>
+  <script src="assets/js/cadastro.js"></script>
+  <script src="assets/js/index.js"></script>
+ 
+  <!-- Favicons -->
+  <link href="assets/img/Logo-Infoeste.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Anyar
+  * Updated: Aug 30 2023 with Bootstrap v5.3.1
+  * Template URL: https://bootstrapmade.com/anyar-free-multipurpose-one-page-bootstrap-theme/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body >
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center ">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo"><a href="index.html"><img class="img-fluid" src="assets/img/Logo-Infoeste.png" alt="Logotipo Infoeste" style="max-width: 35%;" href="index.html">                                                          </a><strong><a href="index.html">INFOESTE</a></strong></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href=index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">Sobre</a></li>
+          <li><a class="nav-link scrollto" href="#conteudo">Conteúdo</a></li>
+          <li><a class="nav-link scrollto" href="#EdicõesPassadas">Edições Passadas</a></li>
+          <li><a class="nav-link scrollto " href="#portfolio">Participe</a></li>
+          <li><a href="login.html" target="_self">Cadastro de Curso</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex justify-cntent-center align-items-center">
+    <div id="heroCarousel" data-bs-interval="5000" class="container carousel carousel-fade" data-bs-ride="carousel">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown">BEM VINDO A 35ª EDIÇÃO DA <br> <strong>INFOESTE</strong></h2>
+          <p class="animate__animated animate__fadeInUp">- 35º Ciclo de Palestras <br> - 1ª Desafios de Defesa de Segurança Cibernética<br> -
+            17ª
+            Maratona de Programação <br> - 4 MiniCursos</p>
+          <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Saiba Mais</a>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <div class="carousel-container">
+          <h4 class="animate__animated animate__fadeInDown" style="color: white;">Novo EMBLEMA</h4><br>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/Logo-Infoeste.png" class="img-fluid" style="width: 40%;" alt=""></div>
+            </div>
+          </div>
+          <!--<a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>-->
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="carousel-item">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown">CRONOGRAMA PRINCIPAL</h2>
+          <p class="animate__animated animate__fadeInUp">- 2 Palestras Completas <br> - 2 Eventos Paralelos (Maratona de Programação e Desafios de Defesa de Segurança Cibernética) <br> - 4 MiniCursos Desenvolvidos pelos Professores da FIPP</p>
+          <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Saiba Mais</a>
+        </div>
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bx bx-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bx bx-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= Icon Boxes Section ======= -->
+    <section id="icon-boxes" class="icon-boxes">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bxl-dribbble"></i></div>
+              <h4 class="title"><a href="">Circuitos Avançados</a></h4>
+              <p class="description">Destinado a um público mais específico, o Professor Flávio Pandur demonstra a arquitetura de circuitos mais complexos, além de ensinar como manipular MiniComputadores ao seu favor, como o Raspberry Pi.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up"
+            data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4 class="title"><a href="">Aplicações Básicas para Segurança da Informação</a></h4>
+              <p class="description">Aqui o Professor Glauco Ruiz revela as práticas mais comuns que Grandes Sistemas Empresarias utilizam para armazenar senhas criptografadas, além de técnicas para aumentar a Segurança em sites próprios, etc.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up"
+            data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <h4 class="title"><a href="">Meu Primeiro Compilador</a></h4>
+              <p class="description">Desenvolvido pelo Professor Francisco de Assis, o projeto tem por objetivo apresentar difentes tipos de algoritmos que lidam com reconhecimento de texto e sintaxe.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up"
+            data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-layer"></i></div>
+              <h4 class="title"><a href="">Introdução ao PROLOG</a></h4>
+              <p class="description">Mario Pazoti, professor da FIPP expõe nesse curso aplicações inicias em PROLOG com um foco em integrar os conhecimentos em algoritmos com a lógica de construção e desenvolvimento nessa linguagem, destinada a IA.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Icon Boxes Section -->
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Sobre o evento</h2>
+          <br>
+          <br>
+          <p>A Faculdade de Informática de Presidente Prudente (FIPP), da Universidade do Oeste Paulista (UNOESTE),
+            realiza anualmente, a Semana de Computação e Informática da FIPP/Unoeste - INFOESTE.</p>
+        </div>
+
+        <div class="row content">
+          <div class="col-lg-6">
+            <p>
+              A INFOESTE 2023 contará com os seguintes eventos integrados:
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i> 35º Ciclo de Palestras (Experience)</li>
+              <li><i class="ri-check-double-line"></i> 4 MiniCursos;</li>
+              <li><i class="ri-check-double-line"></i> 17ª Maratona de Programação;</li>
+              <li><i class="ri-check-double-line"></i> 1ª Desafios de Defesa de Segurança Cibernética;</li>
+            </ul>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <p>
+              O evento, que é aberto a toda a comunidade regional e de outros centros, procura congregar estudantes de
+              graduação e pós-graduação, professores, pesquisadores, profissionais e demais interessados em informática,
+              objetivando a difusão da computação e informática e do seu bom uso, trazendo para o debate aberto temas
+              importantes que indicam as tendências tecnológicas e do mercado atual, além da discussão de práticas
+              pedagógicas no ensino superior, buscando atingir com mais ênfase os alunos dos cursos da FIPP/Unoeste.
+            </p>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+
+    <!--PARTE DA REALIZAÇÃO - FIPP E UNOESTE-->
+
+    <section id="clients" class="clients">
+      <div class="container" data-aos="zoom-in">
+        <div class="section-title">
+          <h2>REALIZAÇÃO</h2><br>
+        </div>
+        <div class="clients-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            <div class="row">
+              <div class="col-md-4 col-sm-6 my-3 text-center align-middle">
+                <a href="https://www.unoeste.br/fipp" target="_blank">
+                  <img class="img-fluid d-block mx-auto logo-apoio" src="assets/img/logo-fipp.png" style="width: 65%;">
+                </a>
+              </div>
+              <div class="col-md-4"></div> <!-- Espaço em branco no meio -->
+              <div class="col-md-4 col-sm-6 my-3 text-center align-middle">
+                <a href="https://www.unoeste.br" target="_blank">
+                  <img class="img-fluid d-block mx-auto logo-apoio" src="assets/img/Unoeste_logo.png" style="width: 75%;">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <br>
+      </div>
+    </section>
+    
+    
+
+    <!-- ======= Clients Section ======= -->
+    <section id="clients" class="clients">
+      <div class="container" data-aos="zoom-in">
+        <div class="section-title">
+          <h2>PARCEIROS</h2> <br>
+        </div>
+        <div class="clients-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <br>
+      </div>
+    </section><!-- End Clients Section -->
+
+    <!-- ======= Why Us Section ======= -->
+    <!--<section id="why-us" class="why-us">
+      <div class="container-fluid">
+
+        <div class="row">
+
+          <div class="col-lg-5 align-items-stretch position-relative video-box"
+            style='background-image: url("assets/img/why-us.jpg");' data-aos="fade-right">
+            <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox play-btn mb-4"></a>
+          </div>
+
+          <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch" data-aos="fade-left">
+
+            <div class="content">
+              <h3>Eum ipsam laborum deleniti <strong>velit pariatur architecto aut nihil</strong></h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.  aute irure dolor in reprehenderit
+              </p>
+            </div>
+
+            <div class="accordion-list">
+              <ul>
+                <li data-aos="fade-up" data-aos-delay="100">
+                  <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span> Non
+                    consectetur a erat nam at lectus urna duis? <i class="bx bx-chevron-down icon-show"></i><i
+                      class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
+                    <p>
+                      Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur
+                      gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                    </p>
+                  </div>
+                </li>
+
+                <li data-aos="fade-up" data-aos-delay="200">
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>02</span>
+                    Feugiat scelerisque varius morbi enim nunc? <i class="bx bx-chevron-down icon-show"></i><i
+                      class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
+                    <p>
+                      Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet
+                      id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est
+                      pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt
+                      dui.
+                    </p>
+                  </div>
+                </li>
+
+                <li data-aos="fade-up" data-aos-delay="300">
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>03</span>
+                    Dolor sit amet consectetur adipiscing elit? <i class="bx bx-chevron-down icon-show"></i><i
+                      class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
+                    <p>
+                      Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar
+                      elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque
+                      eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis
+                      sed odio morbi quis
+                    </p>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section> End Why Us Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="conteudo" class="services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Conteúdo</h2>
+          <p>Todas as Exibições mais Importantes que serão abordadas por todo o Evento da <a href="#">INFOESTE</a></p>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon-box">
+              <i class="bi bi-card-checklist"></i>
+              <h4><a href="#">PALESTRA - COMPUTAÇÃO EM NUVEM</a></h4>
+              <p>Tomado a frente pela Microsoft Azure, a Palestra engloba a disponibilidade de serviços, hospedagem e armazenamento em nuvem.</p>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon-box">
+              <i class="bi bi-bar-chart"></i>
+              <h4><a href="#">PALESTRA - COMO A IA ESTÁ MUDANDO O MUNDO</a></h4>
+              <p>Aqui a OpenAI foca em como as ferramentas IA podem complementar a carreira do profissional de TI, tanto na produção, quanto nos estudos.</p>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon-box">
+              <i class="bi bi-calendar4-week"></i>
+              <h4><a href="#">EVENTO - MARATONA DE PROGRAMAÇÃO</a></h4>
+              <p>É um Evento interno realizado nos laboratórios de informática da FIPP. Este evento contribui para a integração dos alunos num torneio que envolve habilidade, raciocínio e muito trabalho em equipe.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon-box">
+              <i class="bi bi-briefcase"></i>
+              <h4><a href="#">EVENTO - DESAFIOS DE DEFESA DE SEGURANÇA CIBERNÉTICA</a></h4>
+              <p>Sendo Inétito no Evento da INFOESTE, o Evento conta com o funcionamento de várias táticas usadas por invasores, como Phishing, Malware e Ataques de Força Bruta, ao vivo de forma prática. E Mostrando formas de como se proteger.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Cta Section ======= -->
+    
+
+    <!-- ======= Portfoio Section ======= -->
+    <p id="EdicõesPassadas"></p>
+    <section class="portfoio">
+      <div class="container" data-aos="fade-up">
+        
+        <div class="section-title">
+          <h2>Edições Passadas</h2>
+          <p>Aqui Jaz as Edições Registradas na Web de Muitas Semanas da <a href="#">INFOESTE</a></p>
+        </div>
+
+        <br>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <a href="https://www.unoeste.br/fipp/infoeste/13info/" target="_blank">
+              <div class="year-square">
+                <span class="year">2001</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <a href="https://www.unoeste.br/fipp/infoeste/14info/" target="_blank">
+              <div class="year-square">
+                <span class="year">2002</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <a href="https://www.unoeste.br/fipp/infoeste/15info/" target="_blank">
+              <div class="year-square">
+                <span class="year">2003</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <a href="https://www.unoeste.br/fipp/infoeste/16info/" target="_blank">
+              <div class="year-square">
+                <span class="year">2004</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <a href="https://www.unoeste.br/fipp/infoeste/17info/" target="_blank">
+              <div class="year-square">
+                <span class="year">2005</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <a href="https://www.unoeste.br/fipp/infoeste/18info/" target="_blank">
+              <div class="year-square">
+                <span class="year">2006</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <a href="https://www.unoeste.br/fipp/infoeste/19info/" target="_blank">
+              <div class="year-square">
+                <span class="year">2007</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <a href="https://www.unoeste.br/fipp/infoeste/20info/" target="_blank">
+              <div class="year-square">
+                <span class="year">2008</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <a href="https://www.unoeste.br/fipp/infoeste/21info/" target="_blank">
+              <div class="year-square">
+                <span class="year">2009</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <a href="https://www.unoeste.br/fipp/infoeste/22info/" target="_blank">
+              <div class="year-square">
+                <span class="year">2010</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <a href="https://www.unoeste.br/fipp/infoeste/23info/" target="_blank">
+              <div class="year-square">
+                <span class="year">2011</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <a href="https://www.unoeste.br/fipp/infoeste/24info/" target="_blank">
+              <div class="year-square">
+                <span class="year">2012</span>
+              </div>
+            </a>
+          </div>
+        
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <a href="https://www.unoeste.br/fipp/infoeste/25info/" target="_blank">
+              <div class="year-square">
+                <span class="year">2013</span>
+              </div>
+            </a>
+          </div>
+        
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <a href="https://www.unoeste.br/fipp/infoeste/26info/" target="_blank">
+              <div class="year-square">
+                <span class="year">2014</span>
+              </div>
+            </a>
+          </div>
+        
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <a href="https://www.unoeste.br/fipp/infoeste/27info/" target="_blank">
+              <div class="year-square">
+                <span class="year">2015</span>
+              </div>
+            </a>
+          </div>
+        
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <a href="https://www.unoeste.br/fipp/infoeste/28info/" target="_blank">
+              <div class="year-square">
+                <span class="year">2016</span>
+              </div>
+            </a>
+          </div>
+        
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <a href="https://www.unoeste.br/fipp/infoeste/30info/" target="_blank">
+              <div class="year-square">
+                <span class="year">2017</span>
+              </div>
+            </a>
+          </div>
+        
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <a href="https://www.unoeste.br/site/unoeventos/infoeste/2018/" target="_blank">
+              <div class="year-square">
+                <span class="year">2018</span>
+              </div>
+            </a>
+          </div>
+        
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <a href="https://www.unoeste.br/Evento/infoeste2019" target="_blank">
+              <div class="year-square">
+                <span class="year">2019</span>
+              </div>
+            </a>
+          </div>
+        
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <a href="https://www.unoeste.br/Evento/infoeste2020" target="_blank">
+              <div class="year-square">
+                <span  class="year">2020</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <a href="https://www.unoeste.br/semanas/2022/34infoeste" target="_blank">
+              <div class="year-square">
+                <span  class="year">2021</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        
+
+      </div>
+    </section><!-- End Portfoio Section -->
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>TIME DOS MINI-CURSOS</h2>
+          <p>Composto de Professores Renomados da <a href="https://www.unoeste.br/fipp" target="_blank">FIPP</a>.</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/Chico_Perfil.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Francisco Assis</h4>
+                <span>Professor - FIPP</span>
+                <p>Algoritmos e Estruturas de Dados</p>
+                <div class="social">
+                  <a href=""><i class="ri-twitter-fill"></i></a>
+                  <a href=""><i class="ri-facebook-fill"></i></a>
+                  <a href=""><i class="ri-instagram-fill"></i></a>
+                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/Glauco_Perfil.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Glauco Antonio Ruiz</h4>
+                <span>Professor FIPP</span>
+                <p>Gestão da TI e Negócios Empresariais</p>
+                <div class="social">
+                  <a href=""><i class="ri-twitter-fill"></i></a>
+                  <a href=""><i class="ri-facebook-fill"></i></a>
+                  <a href=""><i class="ri-instagram-fill"></i></a>
+                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/Mario_Perfil.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Mário Pazoti</h4>
+                <span>Professor FIPP</span>
+                <p>Inteligência Artificial, Ciência de Dados</p>
+                <div class="social">
+                  <a href=""><i class="ri-twitter-fill"></i></a>
+                  <a href=""><i class="ri-facebook-fill"></i></a>
+                  <a href=""><i class="ri-instagram-fill"></i></a>
+                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4" data-aos="fade-up" data-aos-delay="400">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/Pandur_Perfil.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Flávio Pandur</h4>
+                <span>Professor FIPP</span>
+                <p>Lógica, Matemática, e Arquitetura de Computadores</p>
+                <div class="social">
+                  <a href=""><i class="ri-twitter-fill"></i></a>
+                  <a href=""><i class="ri-facebook-fill"></i></a>
+                  <a href=""><i class="ri-instagram-fill"></i></a>
+                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
+
+    <!-- ======= Pricing Section ======= -->
+    
+
+    <!-- ======= Frequently Asked Questions Section ======= -->
+    <section id="faq" class="faq section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>PERGUNTAS FREQUENTES</h2>
+        </div>
+
+        <div class="faq-list">
+          <ul>
+            <li data-aos="fade-up" data-aos="fade-up" data-aos-delay="100">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse"
+                data-bs-target="#faq-list-1">Quando Acontecerá o Evento ?<i
+                  class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+                <p>
+                  O Evento Terá início no dia 23/10/2023 e término no dia 27/10/2023
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="200">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2"
+                class="collapsed">É um Evento Gratuito ou Pago ?<i
+                  class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  A Infoeste possui um valor 30 Reais para participar, além de um combo de 50 Reais se preferir a camisa
+                  do Evento. Para Demais Participantes a Inscrição é 50 Reais.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="300">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3"
+                class="collapsed">Quem Poderá Participar ?<i
+                  class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  Entre eles estão: Alunos ETEC´s, Alunos da Graduação EAD - FIPP, Alunos da Graduação Presencial - FIPP,
+                  Egressos da FIPP, Professores e Funcionários da FIPP e Demais Participantes.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="400">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4"
+                class="collapsed">Qual o Horário e Local que acontecerá as Palestras e Cursos ?<i
+                  class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  As Palestras serão no período na noite das 19:30 ás 22:00 no Teatro César Cava
+                  Bloco B - R. José Bongiovani, 700 - Cidade Universitária, Pres. Prudente. Os Cursos serão nos Laboratórios
+                  da FIPP em horários próprios.
+                </p>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+    </section><!-- End Frequently Asked Questions Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="portfolio" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Participe!</h2>
+        </div>
+
+        <div class="row mt-1 d-flex justify-content-end" data-aos="fade-right" data-aos-delay="100">
+
+          <div class="col-lg-5">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Local:</h4>
+                <p>Secretaria da Faculdade de Informática - Bloco H - 1º andar / R. José Bongiovani, 700 - Cidade Universitária</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>infoeste@fipp.unoeste.br</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Telefone:</h4>
+                <p>(18) 3229 - 1060</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-6 mt-5 mt-lg-0" data-aos="fade-left" data-aos-delay="100">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                <div class="row">
+                    <div class="col-md-6 form-group">
+                        <input type="text" name="name" class="form-control" id="name" placeholder="Nome">
+                    </div>
+                    <div class="col-md-6 form-group mt-3 mt-md-0">
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Email" >
+                    </div>
+                </div>
+                <div class="form-group mt-3">
+                      <input type="text" class="form-control" id="tNumero5" placeholder="CPF" onkeyup="mascara('###.###.###-##',this,event)" onblur="validarCPF(this)">
+                  </div>
+                  <div class="form-group mt-3">
+                  <input id="iCelular" class="form-control" type="text" placeholder="Celular" onkeyup="mascara('(##)#####-####',this,event)">
+                  </div>
+                <div class="form-group mt-3">
+                    <input type="text" class="form-control" id="CEP" placeholder="CEP" onkeyup="mascara('#####-###',this,event)" onblur="buscaCep()">
+                </div>
+
+
+
+                <div class="form-group mt-3">
+                    <input type="text" class="form-control" id="RUA" placeholder="RUA"  readonly style="user-select: none;">
+
+                </div>
+
+                <div class="form-group mt-3">
+                    <input type="text" class="form-control" id="BAIRRO" placeholder="BAIRRO"  readonly style="user-select: none;">
+
+                </div>
+
+
+
+                <div class="form-group mt-3">
+                    <input type="text" class="form-control" id="tNumero4" placeholder="NUMERO" onkeyup="mascara('####',this,event)">
+                </div>
+
+
+                <div class="form-group mt-3">
+                    <select class="form-control" name="subject" id="subject" >
+                        <option value="">Selecione Uma Palestra</option>
+                        <option value="subject1">Computação em Nuvem - Microsoft Azure</option>
+                        <option value="subject2">Como a IA está mudando o Mundo - OpenAI</option>
+                    </select>
+                </div>
+                <div class="form-group mt-3">
+                  <input type="text" class="form-control" name="ra" id="ra" placeholder="Número do RA">
+              </div>
+              <div class="form-group mt-3" id="opcurso">
+                <label for="options" ><strong>Opções de MiniCursos - 2 no Máximo:</strong></label><br><br>
+
+            </div>
+            
+                <div class="my-3">
+                    <!--<div class="loading">Carregando</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Inscrição enviada</div>-->
+                </div>
+                <div class="text-center"><a href="portfolio-details.html"><button type="submit">Inscrever-se</button></a></div>
+            </form>
+        </div>
+        
+        
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h4>Fique por Dentro</h4>
+            <p>Nos Envie seu E-mail para que possamos mandar Atualizações sobre o Evento</p>
+          </div>
+          <div class="col-lg-6">
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Enviar">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>CURSOS</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://www.unoeste.br/graduacao">Graduação</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://www.unoeste.br/pos">Pós-Graduação</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://www.unoeste.br/ead">Educação a Distância</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://www.unoeste.br/cursoslivres">Cursos Livres</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://www.unoeste.br/tecnicos">Cursos Técnicos</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>A UNOESTE</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://www.unoeste.br/AUnoeste">Mantenedora</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://www.unoeste.br/50anos">50 Anos</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://www.unoeste.br/avaliacao-institucional-cpa">Avaliação Institucional (CPA)</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://www.unoeste.br/AUnoeste/premios">Prêmios</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://www.unoeste.br/AUnoeste/Unidades">Campi Universitários</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>CONTATO</h4>
+            <p>
+              Secretaria da Faculdade de Informática - Bloco H - 1º andar <br>
+              R. José Bongiovani, 700 - Cidade Universitária <br>
+              Presidente Prudente<br><br>
+              <strong>Telefone:</strong> (18) 3229 - 1060<br>
+              <strong>Email:</strong> infoeste@fipp.unoeste.br<br>
+            </p>
+
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-info">
+            <h3 style="text-align: center;">REDES SOCIAIS</h3>
+            <div class="social-links mt-3" style="text-align: center;">
+              <a href="https://www.youtube.com/user/unoestepp" class="youtube"><i class="bx bxl-youtube" target="_blank"></i></a>
+              <a href="https://www.facebook.com/Unoeste" class="facebook" target="_blank"><i class="bx bxl-facebook"></i></a>
+              <a href="https://www.instagram.com/unoeste/" class="instagram"><i class="bx bxl-instagram" target="_blank"></i></a>
+              <a href="https://www.linkedin.com/school/universidade-do-oeste-paulista/" class="linkedin"><i class="bx bxl-linkedin" target="_blank"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>
